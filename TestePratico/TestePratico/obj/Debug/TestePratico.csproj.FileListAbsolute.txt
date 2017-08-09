@@ -1,0 +1,136 @@
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\obj\Debug\Central_Cadastro_Clientes.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\obj\Debug\Central_Cadastro_Clientes.pdb
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\ApplicationInsights.config
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Central_Cadastro_Clientes.dll.config
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Central_Cadastro_Clientes.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Central_Cadastro_Clientes.pdb
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Antlr3.Runtime.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\EntityFramework.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\EntityFramework.SqlServer.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.Web.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Newtonsoft.Json.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Net.Http.Formatting.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Cors.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Helpers.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Http.Cors.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Http.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Http.WebHost.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Mvc.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Optimization.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Razor.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.WebPages.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.WebPages.Razor.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\WebGrease.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Antlr3.Runtime.pdb
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\EntityFramework.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\EntityFramework.SqlServer.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.Web.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\Newtonsoft.Json.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Http.Cors.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Net.Http.Formatting.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Helpers.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Http.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Http.WebHost.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Mvc.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Optimization.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.Razor.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.WebPages.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\System.Web.WebPages.Razor.xml
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\cpires\documents\visual studio 2015\Projects\TestePratico\TestePratico\obj\Debug\TestePratico.csprojResolveAssemblyReference.cache
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\ApplicationInsights.config
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Central_Cadastro_Clientes.dll.config
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Central_Cadastro_Clientes.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Central_Cadastro_Clientes.pdb
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Antlr3.Runtime.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\EntityFramework.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\EntityFramework.SqlServer.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.Web.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Newtonsoft.Json.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Net.Http.Formatting.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Cors.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Helpers.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Http.Cors.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Http.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Http.WebHost.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Mvc.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Optimization.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Razor.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.WebPages.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.WebPages.Razor.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\WebGrease.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Antlr3.Runtime.pdb
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\EntityFramework.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\EntityFramework.SqlServer.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.Web.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\Newtonsoft.Json.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Http.Cors.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Net.Http.Formatting.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Helpers.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Http.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Http.WebHost.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Mvc.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Optimization.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.Razor.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.WebPages.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\System.Web.WebPages.Razor.xml
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\obj\Debug\TestePratico.csprojResolveAssemblyReference.cache
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\obj\Debug\Central_Cadastro_Clientes.dll
+C:\Users\cpires\Documents\GitHub\TestePratico\TestePratico\TestePratico\obj\Debug\Central_Cadastro_Clientes.pdb

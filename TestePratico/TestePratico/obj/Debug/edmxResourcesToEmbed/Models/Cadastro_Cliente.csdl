@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TESTEPRATICOModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CADSTRO_CLIENTE">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="NOME" />
+      <PropertyRef Name="CPF" />
+      <PropertyRef Name="EMISSOR" />
+      <PropertyRef Name="UF_RG" />
+      <PropertyRef Name="DATA_NASC" />
+      <PropertyRef Name="NATURALIDADE" />
+      <PropertyRef Name="UF" />
+      <PropertyRef Name="ESTADO_CIVIL" />
+      <PropertyRef Name="NOME_MAE" />
+      <PropertyRef Name="ENDERECO_RESDEN" />
+      <PropertyRef Name="BAIRRO" />
+      <PropertyRef Name="CIDADE" />
+      <PropertyRef Name="CEP" />
+      <PropertyRef Name="ESTADO" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOME" Type="String" MaxLength="150" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CPF" Type="String" MaxLength="11" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="EMISSOR" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="UF_RG" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DATA_NASC" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="NATURALIDADE" Type="String" MaxLength="100" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="UF" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ESTADO_CIVIL" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="NOME_PAI" Type="String" MaxLength="150" FixedLength="true" Unicode="false" />
+    <Property Name="NOME_MAE" Type="String" MaxLength="150" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ENDERECO_RESDEN" Type="String" MaxLength="150" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="BAIRRO" Type="String" MaxLength="150" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CIDADE" Type="String" MaxLength="150" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CEP" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="ESTADO" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TEL_CEL" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="TEL_RESIDEN" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="TESTEPRATICOEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CADSTRO_CLIENTE" EntityType="Self.CADSTRO_CLIENTE" />
+  </EntityContainer>
+</Schema>

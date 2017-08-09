@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Alimentar Web">
+    <meta name="author" content="CaioPires">
+    <meta name="rating" content="General">
+    <meta name="language" content="pt-br">
+    <meta name="target_country" content="br">
+    <meta name="country" content="Brazil">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="audience" content="all">
+    <title></title>
+
+    <link href="~/Content/application.css" rel="stylesheet" />
+    <link href="~/Content/css/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <!--<link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />-->
+</head>
+<body ng-app="CentralCadastro">
+
+    @RenderPage("Topo.cshtml")
+
+    <div>
+        <ng-view></ng-view>
+    </div>
+
+
+    @RenderBody()
+
+    @RenderPage("Rodape.cshtml")
+</body>
+</html>

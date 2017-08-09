@@ -1,0 +1,227 @@
+﻿<div class="content-wrap" ng-controller="BuscaCadastroController">
+    <main id="content" class="content" role="main">
+        <!-- Lista de Cadastros -->
+        <div class="row col-md-12">
+            <div class="col-md-10">
+                
+            </div>
+            <div class="col-md-2" ng-if="!divCadastro">
+                <div class="pull-right">
+                    <button class="btn btn-primary" tooltips tooltip-side="bottom" tooltip-template="Incluir" ng-click="AbrirCadastro()" title="Incluir">Incluir</button>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+        </div>
+        <div class="row" ng-show="divLista" >
+            <div class="col-md-12">
+                <div class="col-md-10">
+                    <br />
+                    <h1 class="page-title animated fadeInUp"><small>Lista de </small>Cadastros</h1>
+                </div>
+                <div class="panel panel-white">
+                    <div class="panel-body">
+                      <table class="table table-striped Datatable form-search" id="tblUsuario">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Nome</th>
+                                    <th>Celular</th>
+                                    <th>CPF</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="filtro">
+                                    <td><input type="text" class="form-control" ng-model="cadastro.ID" /></td>
+                                    <td><input type="text" class="form-control" ng-model="cadastro.NOME" /></td>
+                                    <td><input type="text" class="form-control" ng-model="cadastro.TEL_CEL" /></td>
+                                    <td><input type="text" class="form-control" ng-model="cadastro.CPF" /></td>
+                                    <td><input type="text" class="form-control" disabled readonly /></td>
+                                </tr>
+                                <tr ng-repeat="cadastro in cadastroClientes | filter: cadastro" ng-animate="'animate'">
+                                    <td>{{cadastro.ID}}</td>
+                                    <td>{{cadastro.NOME}}</td>
+                                    <td>{{cadastro.TEL_CEL}}</td>
+                                    <td>{{cadastro.CPF}}</td>
+                                    <td>
+                                        <div class="visible-md visible-lg hidden-sm hidden-xs">
+                                            <a href ng-click="editar(cadastro)" class="btn btn-transparent btn-xs" data-toggle="tooltip" title="Editar"><i class="fa fa-pencil"></i></a>
+                                            <a href ng-click="excluir(cadastro)" class="btn btn-transparent btn-xs" data-toggle="tooltip" title="Excluir"><i class="fa fa-times fa fa-white"></i></a>
+                                        </div>
+                                        <script>
+                                            $(document).ready(function () {
+                                                $('[data-toggle="tooltip"]').tooltip();
+                                            });
+                                        </script>
+                                        <div class="visible-xs visible-sm hidden-md hidden-lg">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+                                                    <i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu pull-right dropdown-light" role="menu">
+                                                    <li>
+                                                        <a href ng-click="editar(cadastro)"> Editar </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href ng-click="excluir(cadastro)"> Remover </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Novo Cadastro -->
+        <div class="row" ng-show="divCadastro">
+            <div class="col-md-12">
+                <section class="widget" style="background-color:white !important">
+                    <div class="col-md-12">
+                        <h1 class="page-title animated fadeInUp"><small>Novo </small>Cadastro</h1>
+                        <br />
+                    </div>
+                    <header>
+                        <div class="widget-controls">
+                            <a href="" ng-click="FechaCadastro()">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </header>
+                    <div class="widget-body">
+                        <form class="form-horizontal" style="padding-left: 20px; padding-right: 20px;" novalidate role="form" id="formulario" name="formulario" ng-submit="salvar()">
+                            <div class="form-group">
+                                <label for="tbxNome">Nome Completo</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.NOME" name="tbxNome" placeholder="Nome" maxlength="150"/>
+                                <span ng-show="formulario.$submitted && formulario.tbxNome.$error.required"
+                                      class="form-control alert-danger">
+                                    Nome obrigatório
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxCPF">CPF</label>
+                                <input class="form-control" ng-model="CADASTRO_CLIENTE.CPF"  name="tbxCPF" placeholder="CPF" maxlength="100"/>
+                                <span ng-show="formulario.$submitted && formulario.tbxCPF.$error.required"
+                                      class="form-control alert-danger">
+                                    CPF obrigatório
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxEmissor">Emissor</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.EMISSOR" nome="tbxEmissor" placeholder="Emissor" maxlength="50"/>
+                                <span ng-show="formulario.$submitted && formulario.tbxEmissor.$error.required"
+                                      class="form-control alert-danger">
+                                    Emissor obrigatório
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxUFRG">UF de Emissão</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.UF_RG" nome="tbxUFRG" placeholder="UF" maxlength="2" />
+                                <span ng-show="formulario.$submitted && formulario.tbxNome.$error.required"
+                                      class="form-control alert-danger">
+                                    UF de Emissão obrigatório
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxDataNasc">Data de Nascimento</label>
+                                <input type="date" class="form-control" ng-model="CADASTRO_CLIENTE.DATA_NASC" nome="tbxDataNasc" placeholder="Data de Nascimento" maxlength="15" />
+                                <span ng-show="formulario.$submitted && formulario.tbxDataNasc.$error.required"
+                                      class="form-control alert-danger">
+                                    Data de Nascimento obrigatória
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxNaturalidade">Naturalidade</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.NATURALIDADE" nome="tbxNaturalidade" placeholder="Naturalidade" maxlength="150" />
+                                <span ng-show="formulario.$submitted && formulario.tbxNaturalidade.$error.required"
+                                      class="form-control alert-danger">
+                                    É obrigatório informar a naturalidade
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxUF">UF</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.UF" nome="tbxUF" placeholder="UF" maxlength="2" required />
+                                <span ng-show="formulario.$submitted && formulario.tbxNaturalidade.$error.required"
+                                      class="form-control alert-danger">
+                                    CPF obrigatório
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxUF">Estado Cívil</label>
+                                <select class="form-control" id="tbxUF" ng-model="CADASTRO_CLIENTE.ESTADO_CIVIL" required>
+                                    <option>Solteiro</option>
+                                    <option>Casado</option>
+                                    <option>Divorciado</option>
+                                    <option>Viuvo</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxNomePai">Nome do Pai</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.NOME_PAI" nome="tbxNomePai" placeholder="Nome do Pai" maxlength="150" />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxNomeMae">Nome do Mãe</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.NOME_MAE" nome="tbxNomeMae" placeholder="Nome do Mãe" maxlength="150" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxEndereco">Endereço</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.ENDERECO_RESDEN" nome="tbxEndereco" placeholder="Endereço" maxlength="150" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxBairro">Bairro</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.BAIRRO" nome="tbxBairro" placeholder="Bairro" maxlength="150" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxCidade">Cidade</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.CIDADE" nome="tbxCidade" placeholder="Cidade" maxlength="150" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxCEP">CEP</label>
+                                <input class="form-control" ng-model="CADASTRO_CLIENTE.CEP" nome="tbxCEP" placeholder="CEP" maxlength="9" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxEstado">Estado</label>
+                                <input type="text" class="form-control" ng-model="CADASTRO_CLIENTE.ESTADO" nome="tbxEstado" placeholder="Estado" maxlength="150" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxCel">Telefone Celular</label>
+                                <input class="form-control" ng-model="CADASTRO_CLIENTE.TEL_CEL" nome="tbxCel" placeholder="Telefone Celular" maxlength="15" ng-pattern="/[0-9]{10,11}/" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxRes">Telefone Celular</label>
+                                <input class="form-control" ng-model="CADASTRO_CLIENTE.TEL_RESIDEN" nome="tbxRes" placeholder="Telefone Residencial" ng-pattern="/[0-9]{10,11}/" maxlength="15" />
+                            </div>
+                            <div class="form-actions">
+                                <div class="row">
+                                    <div class="col-md-offset-10 col-md-2">
+                                        <button type="submit" class="btn btn-primary">Salvar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <modal visible="ModalExcluir" on-sown="modalOneShown()" on-hide="modalOneHide()">
+            <modal-header title="Excluir Plano de Ação"></modal-header>
+            <modal-body>
+                Deseja excluir o cadastro de <b>{{cadastro.NOME}}</b>?
+            </modal-body>
+            <modal-footer>
+                <div>
+                    <button type="button" class="btn btn-default" ng-click="FechaDialog()">Não</button>
+                    <button type="button" class="btn btn-primary" ng-click="deletar()">Sim</button>
+                </div>
+            </modal-footer>
+        </modal>
+    </main>
+</div>

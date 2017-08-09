@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TESTEPRATICOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'TESTEPRATICO.dbo.CADSTRO_CLIENTE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="CADSTRO_CLIENTE">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="NOME" />
+      <PropertyRef Name="CPF" />
+      <PropertyRef Name="EMISSOR" />
+      <PropertyRef Name="UF_RG" />
+      <PropertyRef Name="DATA_NASC" />
+      <PropertyRef Name="NATURALIDADE" />
+      <PropertyRef Name="UF" />
+      <PropertyRef Name="ESTADO_CIVIL" />
+      <PropertyRef Name="NOME_MAE" />
+      <PropertyRef Name="ENDERECO_RESDEN" />
+      <PropertyRef Name="BAIRRO" />
+      <PropertyRef Name="CIDADE" />
+      <PropertyRef Name="CEP" />
+      <PropertyRef Name="ESTADO" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOME" Type="char" MaxLength="150" Nullable="false" />
+    <Property Name="CPF" Type="nchar" MaxLength="11" Nullable="false" />
+    <Property Name="EMISSOR" Type="char" MaxLength="50" Nullable="false" />
+    <Property Name="UF_RG" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="DATA_NASC" Type="date" Nullable="false" />
+    <Property Name="NATURALIDADE" Type="char" MaxLength="100" Nullable="false" />
+    <Property Name="UF" Type="char" MaxLength="50" Nullable="false" />
+    <Property Name="ESTADO_CIVIL" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="NOME_PAI" Type="char" MaxLength="150" />
+    <Property Name="NOME_MAE" Type="char" MaxLength="150" Nullable="false" />
+    <Property Name="ENDERECO_RESDEN" Type="char" MaxLength="150" Nullable="false" />
+    <Property Name="BAIRRO" Type="char" MaxLength="150" Nullable="false" />
+    <Property Name="CIDADE" Type="char" MaxLength="150" Nullable="false" />
+    <Property Name="CEP" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="ESTADO" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="TEL_CEL" Type="nchar" MaxLength="10" />
+    <Property Name="TEL_RESIDEN" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="TESTEPRATICOModelStoreContainer">
+    <EntitySet Name="CADSTRO_CLIENTE" EntityType="Self.CADSTRO_CLIENTE" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CADSTRO_CLIENTE].[ID] AS [ID], 
+    [CADSTRO_CLIENTE].[NOME] AS [NOME], 
+    [CADSTRO_CLIENTE].[CPF] AS [CPF], 
+    [CADSTRO_CLIENTE].[EMISSOR] AS [EMISSOR], 
+    [CADSTRO_CLIENTE].[UF_RG] AS [UF_RG], 
+    [CADSTRO_CLIENTE].[DATA_NASC] AS [DATA_NASC], 
+    [CADSTRO_CLIENTE].[NATURALIDADE] AS [NATURALIDADE], 
+    [CADSTRO_CLIENTE].[UF] AS [UF], 
+    [CADSTRO_CLIENTE].[ESTADO_CIVIL] AS [ESTADO_CIVIL], 
+    [CADSTRO_CLIENTE].[NOME_PAI] AS [NOME_PAI], 
+    [CADSTRO_CLIENTE].[NOME_MAE] AS [NOME_MAE], 
+    [CADSTRO_CLIENTE].[ENDERECO_RESDEN] AS [ENDERECO_RESDEN], 
+    [CADSTRO_CLIENTE].[BAIRRO] AS [BAIRRO], 
+    [CADSTRO_CLIENTE].[CIDADE] AS [CIDADE], 
+    [CADSTRO_CLIENTE].[CEP] AS [CEP], 
+    [CADSTRO_CLIENTE].[ESTADO] AS [ESTADO], 
+    [CADSTRO_CLIENTE].[TEL_CEL] AS [TEL_CEL], 
+    [CADSTRO_CLIENTE].[TEL_RESIDEN] AS [TEL_RESIDEN]
+    FROM [dbo].[CADSTRO_CLIENTE] AS [CADSTRO_CLIENTE]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

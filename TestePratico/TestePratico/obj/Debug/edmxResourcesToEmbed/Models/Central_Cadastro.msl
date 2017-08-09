@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TESTEPRATICOModelStoreContainer" CdmEntityContainer="TESTEPRATICOEntities1">
+    <EntitySetMapping Name="CADASTRO_CLIENTES">
+      <EntityTypeMapping TypeName="TESTEPRATICOModel.CADASTRO_CLIENTES">
+        <MappingFragment StoreEntitySet="CADASTRO_CLIENTES">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="EMISSOR" ColumnName="EMISSOR" />
+          <ScalarProperty Name="UF_RG" ColumnName="UF_RG" />
+          <ScalarProperty Name="DATA_NASC" ColumnName="DATA_NASC" />
+          <ScalarProperty Name="NATURALIDADE" ColumnName="NATURALIDADE" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="ESTADO_CIVIL" ColumnName="ESTADO_CIVIL" />
+          <ScalarProperty Name="NOME_PAI" ColumnName="NOME_PAI" />
+          <ScalarProperty Name="NOME_MAE" ColumnName="NOME_MAE" />
+          <ScalarProperty Name="ENDERECO_RESDEN" ColumnName="ENDERECO_RESDEN" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TEL_CEL" ColumnName="TEL_CEL" />
+          <ScalarProperty Name="TEL_RESIDEN" ColumnName="TEL_RESIDEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
